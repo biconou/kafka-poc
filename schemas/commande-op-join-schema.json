@@ -1,0 +1,14 @@
+{
+    "type": "record",
+    "name": "CommandeOPJoin",
+    "namespace": "com.github.biconou",
+    "fields": [
+        {"name": "societe_livraison", "type":"string"},
+        {"name": "numero_commande", "type":"string"},
+        {"name": "code_avancement", "type":"string"},
+        {"name": "numero_version", "type":"string"},
+        {"name": "date_accordee_client", "type":"string"},
+        {"name": "date_creation_oms", "type":"string"},
+        {"name": "statut", "type":"string"}
+    ]
+}

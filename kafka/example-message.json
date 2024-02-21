@@ -1,0 +1,46 @@
+{
+    "topic": "commandes-mb",
+    "partition": 0,
+    "offset": 2,
+    "tstype": "create",
+    "ts": 1613064159303,
+    "broker": 1,
+    "headers": [
+      "connect.file.name",
+      "commandes-mb.csv",
+      "connect.file.path",
+      "/data",
+      "connect.file.hash",
+      "1436401762",
+      "connect.file.size",
+      "283",
+      "connect.file.lastModified",
+      "1613064112512",
+      "connect.hostname",
+      "connect"
+    ],
+    "key": null,
+    "payload": {
+      "ConnectDefault": {
+        "societe_facturation": {
+          "string": "01"
+        },
+        "societe_livraison": {
+          "string": "01"
+        },
+        "code_avancement": {
+          "string": "C"
+        },
+        "numero_commande": {
+          "string": "C01/PFD831I"
+        },
+        "numero_version_mb": {
+          "string": "2020-11-25-03.34.14.577000"
+        },
+        "date_accordee_client": {
+          "string": "13/11/2020"
+        }
+      }
+    }
+  }
+  
